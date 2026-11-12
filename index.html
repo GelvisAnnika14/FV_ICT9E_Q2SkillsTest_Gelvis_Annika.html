@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>OBMC Enroll Now</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+rel="stylesheet">
+</head>
+
+<style>
+	body{
+		background-image: url(https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/9804865a-f6de-47d0-b463-c569491b9621/OBMC+MONTESSORI+FV+1+-+AY+2026+FA.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;	
+		}
+    #con{
+    	padding: 50px;
+    	width: 500px;
+        height: 720px; 
+        text-align: center; 
+        background-color: floralwhite;
+        border-radius: 10px;
+        margin: 100px;
+    }
+    
+
+</style>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1fPjyNg5xFEOtT5wBIhcsb3H__yQMgGnnE6Y-yCOr6VzFjiJQctV9dWo&s=10" alt="obmc_logo" class="img-fluid rounded-circle" style="height: 60px; width: 60px;"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        </ul>
+      <form class="d-flex">
+        <input class="form-control me-3" type="text" placeholder="Search">
+        <button class="btn btn-secondary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<br><br>
+<div class="Container1">
+	<div class="row justify-center">
+		<div class="col" id="con">
+			<form action="">
+                <br>
+                <h4>Student Information</h4>
+			 <label for="username">Full Name</label>
+			 <br>
+			  <input type="text" id="fullname" name="fullname" required placeholder=" Enter your full name _" style="height: 30px;" width="200px">
+			 <br><br>
+             <label for="Bday">Brith Date</label>
+             <br>
+              <input type="text" id="bday" name="bday" required placeholder="Month/Day/Year" style="height: 30px;" width="200px">
+             <br><br>
+
+             <label for="Dep">Department</label>
+             <select>
+             	<option value="option1">Casa</option>
+             	<option value="option2">Primary</option>
+             	<option value="option1">Junior High</option>
+             	<option value="option2">Senior High</option>
+             </select>
+              <label for="level">Gr. Lvl</label>
+              <select>
+                <option value="option1">1</option>
+             	<option value="option2">2</option>
+             	<option value="option1">2</option>
+             	<option value="option2">4</option>
+             	<option value="option1">5</option>
+             	<option value="option2">6</option>
+             	<option value="option1">7</option>
+             	<option value="option2">8</option>
+             	<option value="option1">9</option>
+             	<option value="option2">10</option>
+             	<option value="option1">11</option>
+             	<option value="option2">12</option>	
+             </select>
+
+             <br><br>
+             <label for="gender">Gender</label>
+             <br>
+             <select>
+             	<option value="option1">Male</option>
+             	<option value="option2">Female</option>
+             </select>
+             <br><br>
+
+             <h4>Contact Details</h4>
+             <label for="email">Email Adress</label>
+			  <input type="text" id="email" name="email" required placeholder=" Enter email @_s" style="height: 30px;" width="200px">
+			 <br><br>
+
+			  <label for="username">Contact Number</label>
+			  <input type="text" id="num" name="num" required placeholder=" Enter number +(09)" style="height: 30px;" width="200px">
+
+			  <h4>Other Information</h4>
+			  <label>Mode of Learning:</label>
+              <br>
+			   <input type="checkbox" id="f2f"name="f2f">
+             <label for="rate">Face-to-Face</label> <br>
+             <input type="checkbox" id="online"name="online">
+             <label for="rate">Online Classes</label>
+             
+             <br>
+             <a href="" target=""></a>
+		     <br>
+		     <button type="btn"  id="submit" style="border-radius: 10px; border-color: darkorange; background-color: orange;" name="submit">Submit Form</button>
+		     <br>
+
+       </form>
+      </div>
+     </div>
+</body>
+</html>
